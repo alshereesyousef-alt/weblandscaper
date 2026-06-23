@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cutting Edge Lawn Care - Metairie's Trusted Lawn Care & Tree Service</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Design System Theme -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#dbd9d9",
+                        "on-secondary-container": "#4e6e00",
+                        "inverse-on-surface": "#f2f0f0",
+                        "on-tertiary-fixed": "#191c1d",
+                        "surface": "#fbf9f8",
+                        "on-surface-variant": "#42493e",
+                        "on-secondary-fixed-variant": "#364e00",
+                        "secondary-container": "#c8f17a",
+                        "outline": "#72796e",
+                        "on-tertiary-container": "#c1c2c3",
+                        "surface-container-highest": "#e4e2e2",
+                        "on-primary-fixed-variant": "#23501e",
+                        "on-error-container": "#93000a",
+                        "on-secondary": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "on-error": "#ffffff",
+                        "surface-container-high": "#eae8e7",
+                        "primary-container": "#2d5a27",
+                        "on-primary": "#ffffff",
+                        "primary-fixed-dim": "#a1d494",
+                        "surface-container": "#efeded",
+                        "inverse-primary": "#a1d494",
+                        "on-secondary-fixed": "#131f00",
+                        "surface-container-low": "#f5f3f3",
+                        "secondary-fixed-dim": "#add461",
+                        "on-tertiary-fixed-variant": "#454748",
+                        "primary-fixed": "#bcf0ae",
+                        "on-tertiary": "#ffffff",
+                        "on-surface": "#1b1c1c",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed": "#c8f17a",
+                        "inverse-surface": "#303030",
+                        "surface-bright": "#fbf9f8",
+                        "tertiary": "#37393a",
+                        "surface-tint": "#3b6934",
+                        "secondary": "#496800",
+                        "primary": "#154212",
+                        "on-background": "#1b1c1c",
+                        "error": "#ba1a1a",
+                        "on-primary-container": "#9dd090",
+                        "on-primary-fixed": "#002201",
+                        "background": "#fbf9f8",
+                        "tertiary-container": "#4e5051",
+                        "outline-variant": "#c2c9bb",
+                        "tertiary-fixed": "#e1e3e4",
+                        "tertiary-fixed-dim": "#c5c7c8",
+                        "surface-variant": "#e4e2e2"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-lg": "48px",
+                        "stack-md": "24px",
+                        "base": "8px",
+                        "margin-mobile": "20px",
+                        "stack-sm": "12px",
+                        "margin-desktop": "64px",
+                        "gutter": "24px",
+                        "container-max": "1200px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "label-md": ["Inter"],
+                        "headline-xl": ["Montserrat"],
+                        "caption": ["Inter"],
+                        "headline-md": ["Montserrat"],
+                        "body-lg": ["Inter"],
+                        "headline-lg": ["Montserrat"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "700" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "fontWeight": "600" }],
+                        "headline-xl": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.fill {
+            font-variation-settings: 'FILL' 1;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background antialiased font-body-md text-body-md">
+<!-- TopNavBar -->
+<header class="bg-surface shadow-sm fixed top-0 left-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-20 mx-auto transition-transform duration-300" id="top-nav">
+<div class="flex items-center gap-base">
+<span class="material-symbols-outlined text-primary text-3xl">grass</span>
+<span class="font-headline-md text-headline-md font-bold text-primary tracking-tight">Cutting Edge Lawn Care</span>
+</div>
+<nav class="hidden md:flex gap-gutter items-center h-full">
+<a class="font-label-md text-label-md text-primary border-b-2 border-primary pb-1 flex flex-col justify-center h-full" href="index.html">Home</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex flex-col justify-center h-full" href="services.html">Services</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex flex-col justify-center h-full" href="about.html">About</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex flex-col justify-center h-full" href="service-area.html">Service Area</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex flex-col justify-center h-full" href="contact.html">Contact</a>
+</nav>
+<div class="hidden md:flex items-center gap-gutter">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary flex items-center gap-2" href="tel:504-555-0123">
+<span class="material-symbols-outlined text-xl">phone</span>
+                504-555-0123
+            </a>
+<a href="contact.html" class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded-full hover:bg-primary-container transition-colors shadow-sm">
+                Get Free Quote
+            </a>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</header>
+<!-- Main Content Canvas -->
+<main class="pt-20 pb-24 md:pb-0"> <!-- Padding for fixed headers/footers -->
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex items-center justify-center px-margin-mobile md:px-margin-desktop py-stack-lg mt-0">
+<!-- Background Image -->
+<div class="absolute inset-0 z-0 overflow-hidden">
+<div class="bg-cover bg-center w-full h-full absolute inset-0" data-alt="A wide, high-resolution shot of a perfectly manicured residential lawn with vibrant green grass, straight mowing stripes, and healthy, robust trees in the background. The scene is brightly lit by morning sunlight, creating a fresh, reliable, and professional aesthetic suitable for a premium lawn care service. The mood is clean and inviting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDih7H1wmnwMwXcGvK5536ZKM5NiwWOdtrS0ZtJxRwVhzogJQvf7QGYJW8lx1j6uP7AjEuUZGfNreCj-9jziI2HkUQ7BGXwj-JFsTgWIdQeWkwMjwF9-PoP7cjcnt1sIHgvmmi900Wwn2G7t47vARPH82QGRkkFptTwBTnir9fbG-bVCsgW7dxe1J_ryAcZx4WRztmeneqiuwJvo8KcoSigwWclhO6qEY77P3ZRDPdHiztjTUeMc4UK-u83NtHQLs3WdWuGJ4okMABR')"></div>
+<div class="absolute inset-0 bg-surface/80 backdrop-blur-sm md:bg-surface/60"></div>
+</div>
+<div class="relative z-10 w-full max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-center">
+<!-- Hero Text -->
+<div class="flex flex-col gap-stack-md">
+<div class="inline-flex items-center gap-2 bg-secondary-container text-on-secondary-container px-4 py-1.5 rounded-full self-start w-auto">
+<span class="material-symbols-outlined text-sm">verified</span>
+<span class="font-label-md text-label-md">Trusted in Metairie, LA</span>
+</div>
+<h1 class="font-headline-lg-mobile md:font-headline-xl text-headline-lg-mobile md:text-headline-xl text-on-surface max-w-2xl">
+                        Metairie's Trusted Lawn Care & Tree Service
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                        Reliable, professional landscaping for your home. Quality you can see, service you can trust. Let us handle the heavy lifting while you enjoy your outdoor space.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 mt-4">
+<a href="contact.html" class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded-full hover:bg-primary-container transition-colors shadow-sm flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">request_quote</span>
+                            Get Free Quote
+                        </a>
+<a class="bg-surface text-primary border border-primary font-label-md text-label-md px-8 py-4 rounded-full hover:bg-surface-container-low transition-colors shadow-sm flex items-center justify-center gap-2" href="tel:504-555-0123">
+<span class="material-symbols-outlined">call</span>
+                            Call Now
+                        </a>
+</div>
+</div>
+<!-- Quote Form Card -->
+<div class="bg-surface-container-lowest p-stack-md rounded-xl shadow-[0px_8px_30px_rgba(45,90,39,0.1)] border border-outline-variant/30 max-w-md w-full ml-auto">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-stack-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">flash_on</span>
+                        Instant Free Quote
+                    </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">Fill out the form below to get started.</p>
+<form class="flex flex-col gap-4">
+<div>
+<label class="sr-only" for="name">Name</label>
+<input class="w-full bg-surface border border-outline-variant rounded-lg px-4 py-3 font-body-md text-body-md focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" id="name" placeholder="Full Name" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="phone">Phone</label>
+<input class="w-full bg-surface border border-outline-variant rounded-lg px-4 py-3 font-body-md text-body-md focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" id="phone" placeholder="Phone Number" type="tel"/>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div>
+<label class="sr-only" for="zip">Zip Code</label>
+<input class="w-full bg-surface border border-outline-variant rounded-lg px-4 py-3 font-body-md text-body-md focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" id="zip" placeholder="Zip Code" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="service">Service Needed</label>
+<select class="w-full bg-surface border border-outline-variant rounded-lg px-4 py-3 font-body-md text-body-md focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all text-on-surface-variant appearance-none" id="service">
+<option disabled="" selected="" value="">Select Service</option>
+<option value="mowing">Lawn Mowing</option>
+<option value="tree">Tree Trimming</option>
+<option value="cleanup">Yard Cleanup</option>
+</select>
+</div>
+</div>
+<button class="w-full bg-secondary text-on-secondary font-label-md text-label-md px-6 py-4 rounded-full mt-2 hover:bg-secondary-container hover:text-on-secondary-container transition-colors shadow-sm" type="button">
+                            Submit Request
+                        </button>
+</form>
+</div>
+</div>
+</section>
+<!-- Trust Bar -->
+<section class="bg-surface-container-low border-y border-outline-variant/20 py-stack-sm">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 items-center justify-center text-center">
+<div class="flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">gpp_good</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Licensed & Insured</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">calendar_month</span>
+<span class="font-label-md text-label-md text-on-surface-variant">15+ Years in Business</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">eco</span>
+<span class="font-label-md text-label-md text-on-surface-variant">500+ Lawns Maintained</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl fill">star</span>
+<span class="font-label-md text-label-md text-on-surface-variant">5-Star Rated</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex md:hidden h-16 bg-primary divide-x divide-on-primary/20 shadow-lg">
+<a class="flex-1 flex items-center justify-center gap-base text-on-primary font-label-md text-label-md hover:bg-primary-container active:scale-95 transition-all" href="tel:504-555-0123">
+<span class="material-symbols-outlined">call</span>
+            Call Now
+        </a>
+<a class="flex-1 flex items-center justify-center gap-base text-on-primary/80 font-label-md text-label-md hover:bg-primary-container hover:text-on-primary active:scale-95 transition-all" href="contact.html">
+<span class="material-symbols-outlined">request_quote</span>
+            Get Quote
+        </a>
+</nav>
+<script>
+        // Simple script to handle scroll styling for Top Nav
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('top-nav');
+            if (window.scrollY > 20) {
+                nav.classList.add('shadow-md');
+            } else {
+                nav.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body></html>

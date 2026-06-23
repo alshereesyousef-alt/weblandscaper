@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Services - Cutting Edge Lawn Care</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-variant": "#e4e2e2",
+                      "surface": "#fbf9f8",
+                      "outline-variant": "#c2c9bb",
+                      "surface-bright": "#fbf9f8",
+                      "on-primary-container": "#9dd090",
+                      "on-background": "#1b1c1c",
+                      "error": "#ba1a1a",
+                      "secondary": "#496800",
+                      "inverse-on-surface": "#f2f0f0",
+                      "on-secondary-container": "#4e6e00",
+                      "surface-container-highest": "#e4e2e2",
+                      "surface-container-high": "#eae8e7",
+                      "on-surface-variant": "#42493e",
+                      "on-error": "#ffffff",
+                      "on-primary-fixed-variant": "#23501e",
+                      "inverse-primary": "#a1d494",
+                      "tertiary-fixed": "#e1e3e4",
+                      "on-secondary-fixed-variant": "#364e00",
+                      "primary-container": "#2d5a27",
+                      "on-tertiary-fixed": "#191c1d",
+                      "on-surface": "#1b1c1c",
+                      "inverse-surface": "#303030",
+                      "on-primary": "#ffffff",
+                      "outline": "#72796e",
+                      "primary-fixed": "#bcf0ae",
+                      "background": "#fbf9f8",
+                      "error-container": "#ffdad6",
+                      "tertiary-container": "#4e5051",
+                      "surface-container-low": "#f5f3f3",
+                      "on-tertiary": "#ffffff",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary-container": "#c8f17a",
+                      "on-tertiary-fixed-variant": "#454748",
+                      "tertiary-fixed-dim": "#c5c7c8",
+                      "secondary-fixed-dim": "#add461",
+                      "primary": "#154212",
+                      "on-secondary-fixed": "#131f00",
+                      "secondary-fixed": "#c8f17a",
+                      "on-error-container": "#93000a",
+                      "on-secondary": "#ffffff",
+                      "surface-container": "#efeded",
+                      "surface-dim": "#dbd9d9",
+                      "on-tertiary-container": "#c1c2c3",
+                      "primary-fixed-dim": "#a1d494",
+                      "on-primary-fixed": "#002201",
+                      "tertiary": "#37393a",
+                      "surface-tint": "#3b6934"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "margin-desktop": "64px",
+                      "stack-md": "24px",
+                      "gutter": "24px",
+                      "stack-sm": "12px",
+                      "stack-lg": "48px",
+                      "base": "8px",
+                      "margin-mobile": "20px",
+                      "container-max": "1200px"
+              },
+              "fontFamily": {
+                      "headline-xl": [
+                              "Montserrat"
+                      ],
+                      "headline-lg": [
+                              "Montserrat"
+                      ],
+                      "label-md": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Montserrat"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "caption": [
+                              "Inter"
+                      ],
+                      "headline-lg-mobile": [
+                              "Montserrat"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ]
+              },
+              "fontSize": {
+                      "headline-xl": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .service-card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0px 8px 30px rgba(45, 90, 39, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md antialiased pt-20 pb-16 md:pb-0">
+<!-- TopNavBar (from Shared Components) -->
+<nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-20 max-w-container-max mx-auto bg-surface dark:bg-surface shadow-sm">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim">
+            Cutting Edge Lawn Care
+        </div>
+<div class="hidden md:flex items-center gap-gutter">
+<a class="text-on-surface-variant dark:text-on-surface-variant font-label-md text-label-md hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="index.html">Home</a>
+<a class="text-primary dark:text-primary-fixed-dim border-b-2 border-primary dark:border-primary-fixed-dim pb-1 font-label-md text-label-md hover:text-primary dark:hover:text-primary-fixed-dim transition-colors scale-95 transition-transform duration-150" href="services.html">Services</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-label-md text-label-md hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="about.html">About</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-label-md text-label-md hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="service-area.html">Service Area</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-label-md text-label-md hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="contact.html">Contact</a>
+</div>
+<div class="hidden md:flex items-center gap-stack-sm">
+<span class="text-on-surface-variant font-label-md text-label-md">504-555-0123</span>
+<a href="contact.html" class="bg-primary text-on-primary px-6 py-3 rounded-full font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-colors shadow-sm">
+                Get Free Quote
+            </a>
+</div>
+</nav>
+<!-- Main Content -->
+<main>
+<!-- Hero Section -->
+<section class="relative w-full min-h-[500px] flex items-center justify-center px-margin-mobile md:px-margin-desktop py-stack-lg overflow-hidden">
+<div class="absolute inset-0 z-0" data-alt="A sweeping, cinematic high-quality photograph of an immaculately manicured suburban lawn stretching towards a beautiful home at golden hour. The grass is vibrant forest green, cut in precise diagonal stripes. Soft, warm sunlight filters through majestic, perfectly trimmed oak trees, casting dappled shadows. The aesthetic is highly professional, clean, and aspirational, reflecting top-tier landscaping services." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDsx4iJI9nSxXNd9uLVYDgtLwR1EY_anuIyKd-AWUeeMScX5gIdhduY0mVik9Papdx0bKiAGXWIcyI4-5egS5ZQTm6REIdDz9paUSmd_XKy-b4p_C4p73m4EAkTPBluQ1LtOnWdMJdL3-BlV61M4JX1cJfzKApcZuv2DKOy1HC2bkSGsCihFxeSf4WDjtTQRUhDv2wnN5JrkVolYigOXBTU81nS7epZJISIrX8O9kJ0bilsMW-p7EkLisJFlGv1YcKgmqibx4Rs6RmU')"></div>
+<div class="absolute inset-0 bg-primary/80 z-10"></div>
+<div class="relative z-20 max-w-3xl text-center text-on-primary">
+<h1 class="font-headline-xl text-headline-xl md:hidden font-headline-lg-mobile text-headline-lg-mobile mb-stack-sm text-on-primary">Our Professional Lawn &amp; Tree Services</h1>
+<h1 class="hidden md:block font-headline-xl text-headline-xl mb-stack-sm text-on-primary">Our Professional Lawn &amp; Tree Services</h1>
+<p class="font-body-lg text-body-lg mb-stack-md text-on-primary/90">Expert care for every aspect of your outdoor space. From precision mowing to complete landscape design, we deliver pristine results you can be proud of.</p>
+<a href="contact.html" class="bg-secondary text-on-secondary px-8 py-4 rounded-full font-label-md text-label-md hover:bg-secondary-container hover:text-on-secondary-container transition-colors inline-flex items-center gap-base">
+                    Get a Quote <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="py-stack-lg px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Service Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm service-card-hover transition-all duration-300 border border-outline-variant/30 flex flex-col h-full">
+<div class="h-48 w-full bg-cover bg-center" data-alt="A close-up, high-definition shot of a professional zero-turn lawn mower cutting perfectly even rows of vibrant green grass. Blades of grass are sharp in focus, showcasing precision. The lighting is bright and sunny, conveying a fresh, clean, and meticulously maintained yard." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDX8jLyuLGh2NZrSTJkdV93BTtMT2jMshs-KqKmCzWtxzNbPmYCDwvcyV_6BKZ7NwBVnARl5RVxFB8SXLh9mLPUEz0onF0GazAb5FzIeKzdn260nsVy67kFkFGG6kdw4cyGqqMadQDiCLTNCqifHuPYa-LuOUMg1P81ntbPNrsGZyXin--9kHyfGc6KWWNL8HNgF48liYjHPVTcM51tur665fLpyMfXffc7C-vWO7EX2Vi4jWs6N_Ibm2Lp9W4WnWH71YGa_r3bJGV7')"></div>
+<div class="p-stack-md flex flex-col flex-grow">
+<div class="flex items-center gap-base mb-stack-sm">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">grass</span>
+<h3 class="font-headline-md text-headline-md text-primary">Lawn Mowing</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md flex-grow">Precision mowing tailored to your grass type. Includes professional edging along walkways and driveways, and thorough cleanup of all clippings for a flawless finish.</p>
+<a href="contact.html" class="w-full border border-primary text-primary py-3 rounded-full font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-colors mt-auto text-center block">
+                            Get a Quote
+                        </a>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm service-card-hover transition-all duration-300 border border-outline-variant/30 flex flex-col h-full">
+<div class="h-48 w-full bg-cover bg-center" data-alt="A professional arborist in safety gear carefully pruning branches from a large, healthy oak tree against a clear blue sky. The image focuses on the craftsmanship and care of tree trimming. The colors are natural greens and bright blues, emphasizing a safe, clean, and expert service." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBS7c4ZaRpP5j1EV1XVX1n0uif_6CCP7dMTDy6Bc0Mqy6ulJXr4MillU04AAPcQ6GzCmjlluOOIIdAzVDW2NMwA18WjZP4T6NbA4ilsM-65X84g2hDH3f0aX11hYy0JxB8s5W-4LP9f5dRUiUr93dIwfLXv51hKV6k5CcAXt-6JGo3DgHE6LIM9RsxKZuo9fLgP-fNdi7W3S1x0MDhf5bOJvpIkrvNrGceuC_GzjmEX_Eov-ixcxgFOdeRIQ9j_HdX7t-voIZ3m94-S')"></div>
+<div class="p-stack-md flex flex-col flex-grow">
+<div class="flex items-center gap-base mb-stack-sm">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">nature</span>
+<h3 class="font-headline-md text-headline-md text-primary">Tree Trimming</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md flex-grow">Expert structural pruning to enhance tree health and aesthetics. We remove deadwood, shape canopies for optimal light penetration, and ensure the safety of your property.</p>
+<a href="contact.html" class="w-full border border-primary text-primary py-3 rounded-full font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-colors mt-auto text-center block">
+                            Get a Quote
+                        </a>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm service-card-hover transition-all duration-300 border border-outline-variant/30 flex flex-col h-full">
+<div class="h-48 w-full bg-cover bg-center" data-alt="A macro shot of rich, dark soil being gently treated with slow-release fertilizer granules around the base of lush, healthy green plants. The lighting is soft and natural, emphasizing the vitality, health, and science behind professional lawn fertilization and deep root care." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBSRS5Ckwiq6OzeoeAY7SLfZWb0NH1UNl6kZUj9ysua3ZS6UxaNuvmTo_Apz4_CUcDwf85NWWEULyViFx97svuZbT8mSD6pAlYa2U9V9V5Vt-ctDpBTke5MJE3qprwRHAi8_wIduy5wMGZdxXjiwY8bGAMNj3TXnQwJC2OvwcI8Vy1kZRW09UJqd1P_1E86uSCz6nAY1tG69RXC8YL4DIOYk_n0Au0PS8pCqD1Ttd7ARiHBNWCU-nR8VBy6GD8Ms5tiIx1aDZZ0e8_C')"></div>
+<div class="p-stack-md flex flex-col flex-grow">
+<div class="flex items-center gap-base mb-stack-sm">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">eco</span>
+<h3 class="font-headline-md text-headline-md text-primary">Fertilization</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md flex-grow">Customized nutrient programs designed for your specific soil profile. We use premium, slow-release fertilizers to promote deep root growth and vibrant, resilient turf year-round.</p>
+<a href="contact.html" class="w-full border border-primary text-primary py-3 rounded-full font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-colors mt-auto text-center block">
+                            Get a Quote
+                        </a>
+</div>
+</div>
+<!-- Service Card 4 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm service-card-hover transition-all duration-300 border border-outline-variant/30 flex flex-col h-full">
+<div class="h-48 w-full bg-cover bg-center" data-alt="A beautifully manicured garden bed before and after a seasonal cleanup. Vibrant, crisp autumn leaves are neatly raked, and the mulch beds look fresh and dark. The overall scene is tidy, emphasizing the restorative and organized nature of professional yard cleanup services." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC12WojULllNrJNafvbmNH9kFhsrBK3a4RLCLzfDY3MkSgcezKP-vhsItvpBRBMP7u6AxWSE0-7Zx4-QoATl_R7lu_o9bdQ-tokYgVjJR1s1k_xyTgh3XvNn-zK3ZW31dm4shgUOFTBm8adkWcYUKBeOt0sXIi57Z4A11nH9eV7D8skRgz4Ykj5b7XBVXhxfkKGh84Ed-GqIz3YLd1nfj9f0fU7a5XgCYNp1Qs_gFcKQDNOSOsuoBlqanACqAo3te1WEKSyQQBPtXVF')"></div>
+<div class="p-stack-md flex flex-col flex-grow">
+<div class="flex items-center gap-base mb-stack-sm">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">yard</span>
+<h3 class="font-headline-md text-headline-md text-primary">Yard Cleanup</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md flex-grow">Comprehensive seasonal cleanups to refresh your landscape. Includes leaf removal, debris clearing, bed edging, and fresh mulch installation to protect and beautify your property.</p>
+<a href="contact.html" class="w-full border border-primary text-primary py-3 rounded-full font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-colors mt-auto text-center block">
+                            Get a Quote
+                        </a>
+</div>
+</div>
+<!-- Service Card 5 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm service-card-hover transition-all duration-300 border border-outline-variant/30 flex flex-col h-full">
+<div class="h-48 w-full bg-cover bg-center" data-alt="A stunning, modern landscape design featuring clean architectural lines, native plantings in precise arrangements, and elegant hardscaping with smooth stone pathways. Soft outdoor lighting highlights the structural plants. The aesthetic is high-end, sophisticated, and perfectly integrates nature with modern living." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCC4xMAfftPPbNlz6jdSkw5TGOiKy5mhh0XUd8dUUNYSvc0TiNZdCQhiuR08urYo4ZnEbcu72Fiw5BUDzZ_r9Zna6kv2SwRaZtFx-8uEoxGKuto7KK6olzLXjNAmwxODScXDh6IOCQJWspQqlvL2XgEjYJi7YrsGnyxdlc7RjUJ2a3vZ5nU84kc9aYYxZ1HaqaZ7YYEamO0kYG3yN8pCTrWFucaESFxXxYJnmXh60kxPf7fRZn0_gCzf4TymRTpponGVKupoH92r08o')"></div>
+<div class="p-stack-md flex flex-col flex-grow">
+<div class="flex items-center gap-base mb-stack-sm">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">architecture</span>
+<h3 class="font-headline-md text-headline-md text-primary">Landscaping Design</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md flex-grow">Transform your outdoor living space with bespoke design services. From conceptual blueprints to expert installation of plants, hardscapes, and lighting features.</p>
+<a href="contact.html" class="w-full border border-primary text-primary py-3 rounded-full font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-colors mt-auto text-center block">
+                            Get a Quote
+                        </a>
+</div>
+</div>
+<!-- Service Card 6 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm service-card-hover transition-all duration-300 border border-outline-variant/30 flex flex-col h-full">
+<div class="h-48 w-full bg-cover bg-center" data-alt="A pristine, completely weed-free expanse of thick green turf grass. The focus is on the flawless consistency of the lawn, demonstrating effective weed control. The lighting is bright, highlighting the lushness of the healthy grass without a single blemish or invasive plant in sight." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD1cCo1cEiX1HgkaQHTmBsH0ldym1eOFoSolueP2fsLEr0RLSMc7GeZ6SUdP26TlrFbpJ4Paqlgsrm3jyWc2N5NUB6HqpLeCxGMmaDRBxl-TKizuGi5wkyOKSCs_Ytkmyt8PB71nOh51XPUaIijug95eUhRVQtb2aUgRSI1DY1Lo1Eh61Eop2-lL2ejULhy4JKH5xfzlOsTYztgH7w-AWEghzZtEtbnY7D-8BABZ_ITRH4KZUlRpa1sAqcn1bzTI9hBLHNf7z11OZNX')"></div>
+<div class="p-stack-md flex flex-col flex-grow">
+<div class="flex items-center gap-base mb-stack-sm">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">pest_control</span>
+<h3 class="font-headline-md text-headline-md text-primary">Weed Control</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md flex-grow">Targeted, environmentally conscious treatments to eliminate invasive weeds and prevent future growth, ensuring your lawn remains uniform, healthy, and pristine.</p>
+<a href="contact.html" class="w-full border border-primary text-primary py-3 rounded-full font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-colors mt-auto text-center block">
+                            Get a Quote
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<!-- How It Works Section -->
+<section class="bg-surface-container-low py-stack-lg px-margin-mobile md:px-margin-desktop">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-stack-lg">
+<h2 class="font-headline-lg text-headline-lg md:hidden font-headline-lg-mobile text-headline-lg-mobile text-primary mb-stack-sm">How It Works</h2>
+<h2 class="hidden md:block font-headline-lg text-headline-lg text-primary mb-stack-sm">How It Works</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Getting a perfect lawn is simple. Follow our straightforward process to elevate your outdoor space.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-stack-md relative">
+<!-- Connecting line for desktop -->
+<div class="hidden md:block absolute top-1/2 left-[16%] right-[16%] h-0.5 bg-outline-variant -z-0 -translate-y-1/2"></div>
+<div class="relative z-10 flex flex-col items-center text-center bg-surface-container-lowest p-stack-md rounded-xl shadow-sm border border-outline-variant/30">
+<div class="w-16 h-16 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center mb-stack-sm shadow-sm">
+<span class="material-symbols-outlined text-[32px]" style="font-variation-settings: 'FILL' 1;">assignment</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-base">1. Request</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Reach out for a free, no-obligation quote tailored to your property's specific needs.</p>
+</div>
+<div class="relative z-10 flex flex-col items-center text-center bg-surface-container-lowest p-stack-md rounded-xl shadow-sm border border-outline-variant/30">
+<div class="w-16 h-16 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center mb-stack-sm shadow-sm">
+<span class="material-symbols-outlined text-[32px]" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-base">2. Schedule</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Choose a convenient time for our professional crew to perform your selected services.</p>
+</div>
+<div class="relative z-10 flex flex-col items-center text-center bg-surface-container-lowest p-stack-md rounded-xl shadow-sm border border-outline-variant/30">
+<div class="w-16 h-16 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center mb-stack-sm shadow-sm">
+<span class="material-symbols-outlined text-[32px]" style="font-variation-settings: 'FILL' 1;">deck</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-base">3. Relax</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Enjoy your pristine outdoor space while we handle the hard work with precision and care.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA Banner -->
+<section class="py-stack-lg px-margin-mobile md:px-margin-desktop">
+<div class="max-w-container-max mx-auto bg-primary rounded-2xl p-stack-lg text-center shadow-lg relative overflow-hidden">
+<div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at center, #ffffff 1px, transparent 1px); background-size: 24px 24px;"></div>
+<div class="relative z-10">
+<h2 class="font-headline-lg text-headline-lg md:hidden font-headline-lg-mobile text-headline-lg-mobile text-on-primary mb-stack-sm">Ready to Transform Your Lawn?</h2>
+<h2 class="hidden md:block font-headline-lg text-headline-lg text-on-primary mb-stack-sm">Ready to Transform Your Lawn?</h2>
+<p class="font-body-lg text-body-lg text-on-primary/90 mb-stack-md max-w-2xl mx-auto">Contact us today for a personalized quote and experience the Cutting Edge difference.</p>
+<a href="contact.html" class="bg-secondary text-on-secondary px-8 py-4 rounded-full font-label-md text-label-md hover:bg-secondary-container hover:text-on-secondary-container transition-colors inline-flex items-center gap-base shadow-sm">
+                        Get Your Free Quote <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (from Shared Components) -->
+<footer class="w-full py-stack-lg px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant dark:border-outline-variant">
+<div class="col-span-1 md:col-span-1 flex flex-col gap-stack-sm">
+<span class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim">
+                Cutting Edge Lawn Care
+            </span>
+<span class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant">
+                © 2024 Cutting Edge Lawn Care. All rights reserved.
+            </span>
+</div>
+<div class="col-span-1 md:col-span-3 flex flex-wrap gap-gutter md:justify-end items-start pt-2 md:pt-0">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors" href="#">Terms of Service</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors" href="service-area.html">Service Areas</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors" href="#">Careers</a>
+</div>
+</footer>
+<!-- BottomNavBar (from Shared Components) -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex md:hidden h-16 divide-x divide-on-primary/20 bg-primary dark:bg-primary-container shadow-lg">
+<a class="flex-1 flex items-center justify-center gap-base text-on-primary/80 dark:text-on-primary-container/80 font-label-md text-label-md active:bg-primary-container dark:active:bg-primary transition-all" href="tel:504-555-0123">
+<span class="material-symbols-outlined">call</span>
+            Call Now
+        </a>
+<a class="flex-1 flex items-center justify-center gap-base text-on-primary/80 dark:text-on-primary-container/80 font-label-md text-label-md active:bg-primary-container dark:active:bg-primary transition-all" href="contact.html">
+<span class="material-symbols-outlined">request_quote</span>
+            Get Quote
+        </a>
+</nav>
+</body></html>
