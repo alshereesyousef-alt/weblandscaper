@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Service Area - Cutting Edge Lawn Care</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-variant": "#e4e2e2",
+                      "surface": "#fbf9f8",
+                      "outline-variant": "#c2c9bb",
+                      "surface-bright": "#fbf9f8",
+                      "on-primary-container": "#9dd090",
+                      "on-background": "#1b1c1c",
+                      "error": "#ba1a1a",
+                      "secondary": "#496800",
+                      "inverse-on-surface": "#f2f0f0",
+                      "on-secondary-container": "#4e6e00",
+                      "surface-container-highest": "#e4e2e2",
+                      "surface-container-high": "#eae8e7",
+                      "on-surface-variant": "#42493e",
+                      "on-error": "#ffffff",
+                      "on-primary-fixed-variant": "#23501e",
+                      "inverse-primary": "#a1d494",
+                      "tertiary-fixed": "#e1e3e4",
+                      "on-secondary-fixed-variant": "#364e00",
+                      "primary-container": "#2d5a27",
+                      "on-tertiary-fixed": "#191c1d",
+                      "on-surface": "#1b1c1c",
+                      "inverse-surface": "#303030",
+                      "on-primary": "#ffffff",
+                      "outline": "#72796e",
+                      "primary-fixed": "#bcf0ae",
+                      "background": "#fbf9f8",
+                      "error-container": "#ffdad6",
+                      "tertiary-container": "#4e5051",
+                      "surface-container-low": "#f5f3f3",
+                      "on-tertiary": "#ffffff",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary-container": "#c8f17a",
+                      "on-tertiary-fixed-variant": "#454748",
+                      "tertiary-fixed-dim": "#c5c7c8",
+                      "secondary-fixed-dim": "#add461",
+                      "primary": "#154212",
+                      "on-secondary-fixed": "#131f00",
+                      "secondary-fixed": "#c8f17a",
+                      "on-error-container": "#93000a",
+                      "on-secondary": "#ffffff",
+                      "surface-container": "#efeded",
+                      "surface-dim": "#dbd9d9",
+                      "on-tertiary-container": "#c1c2c3",
+                      "primary-fixed-dim": "#a1d494",
+                      "on-primary-fixed": "#002201",
+                      "tertiary": "#37393a",
+                      "surface-tint": "#3b6934"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "margin-desktop": "64px",
+                      "stack-md": "24px",
+                      "gutter": "24px",
+                      "stack-sm": "12px",
+                      "stack-lg": "48px",
+                      "base": "8px",
+                      "margin-mobile": "20px",
+                      "container-max": "1200px"
+              },
+              "fontFamily": {
+                      "headline-xl": ["Montserrat"],
+                      "headline-lg": ["Montserrat"],
+                      "label-md": ["Inter"],
+                      "headline-md": ["Montserrat"],
+                      "body-lg": ["Inter"],
+                      "caption": ["Inter"],
+                      "headline-lg-mobile": ["Montserrat"],
+                      "body-md": ["Inter"]
+              },
+              "fontSize": {
+                      "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                      "label-md": ["14px", {"lineHeight": "20px", "fontWeight": "600"}],
+                      "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "caption": ["12px", {"lineHeight": "16px", "fontWeight": "400"}],
+                      "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md pt-20 pb-16 md:pb-0">
+<!-- TopNavBar -->
+<nav class="bg-surface dark:bg-surface shadow-sm fixed top-0 left-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-20 max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim">
+            Cutting Edge Lawn Care
+        </div>
+<div class="hidden md:flex space-x-gutter">
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="index.html">Home</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="services.html">Services</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="about.html">About</a>
+<a class="font-label-md text-label-md text-primary dark:text-primary-fixed-dim border-b-2 border-primary dark:border-primary-fixed-dim pb-1 hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="service-area.html">Service Area</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="contact.html">Contact</a>
+</div>
+<div class="hidden md:flex space-x-stack-sm items-center">
+<span class="font-label-md text-label-md text-primary dark:text-primary-fixed-dim">504-555-0123</span>
+<a href="contact.html" class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded-full hover:bg-primary-container transition-colors">Get Free Quote</a>
+</div>
+</nav>
+<!-- Main Canvas -->
+<main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop space-y-stack-lg py-stack-lg">
+<!-- Hero Section -->
+<section class="text-center space-y-stack-md pt-stack-lg">
+<h1 class="font-headline-lg-mobile md:font-headline-xl text-headline-lg-mobile md:text-headline-xl text-primary">Proudly Serving Metairie &amp; Surrounding Areas</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Expert lawn care and landscaping services tailored for local climates. We bring precision and reliability to every neighborhood we serve.</p>
+</section>
+<!-- Service Locations Bento Grid -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-stack-sm">
+<!-- Map Placeholder -->
+<div class="col-span-1 md:col-span-2 rounded-xl overflow-hidden shadow-sm border border-outline-variant relative min-h-[400px]">
+<div class="bg-cover bg-center w-full h-full absolute inset-0" data-alt="A highly detailed, professional map interface showing the Metairie area in Louisiana, styled in a modern, clean, light-mode aesthetic. The map features soft greens and light grays, representing parks and residential zones, with subtle roads and landmarks clearly visible. A sense of precision and professional service coverage is conveyed through the map's crisp lines and elegant styling. Bright natural light seems to illuminate the map surface." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCm5WOex6jyb1IAu0B0epKR9ecL5YgKfP3tG4WnajV8YNnjyyg6Sx5PalpevPzPX0TXDXi98mW6oqMSglC5xfe9onwWXrwmI0hpSF1gS1G4Gh89W3VY5YFFeEa-V0ahvVDPYwCOFIcXBfgS1-GhFE6EVBD7Abvsec1F2H4f0F0AYhRCfBq-EM7qdQchY_VNe1zAl7bLVJfUBK0CjOsI9FRepyazZlIAYg780NYNgu-0jaJjGTeoKa59ZtpfemP9afOf2ylhXAJUUNX_')"></div>
+<div class="absolute bottom-4 left-4 right-4 bg-surface/90 backdrop-blur-sm p-4 rounded-lg shadow-sm">
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Our Coverage Zone</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">We provide dedicated service across the greater Metairie region, ensuring rapid response times and consistent quality.</p>
+</div>
+</div>
+<!-- Location List -->
+<div class="col-span-1 bg-surface-container-lowest border border-outline-variant rounded-xl p-stack-md shadow-sm flex flex-col justify-center">
+<h3 class="font-headline-md text-headline-md text-primary mb-stack-md">Locations We Serve</h3>
+<ul class="space-y-stack-sm">
+<li class="flex items-center gap-base">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<span class="font-body-lg text-body-lg text-on-surface">Metairie</span>
+</li>
+<li class="flex items-center gap-base">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<span class="font-body-lg text-body-lg text-on-surface">Kenner</span>
+</li>
+<li class="flex items-center gap-base">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<span class="font-body-lg text-body-lg text-on-surface">Harahan</span>
+</li>
+<li class="flex items-center gap-base">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<span class="font-body-lg text-body-lg text-on-surface">River Ridge</span>
+</li>
+<li class="flex items-center gap-base">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<span class="font-body-lg text-body-lg text-on-surface">Elmwood</span>
+</li>
+<li class="flex items-center gap-base">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<span class="font-body-lg text-body-lg text-on-surface">Jefferson</span>
+</li>
+</ul>
+</div>
+</section>
+<!-- Why Local Matters Section -->
+<section class="bg-surface-container-low rounded-xl p-stack-lg shadow-sm flex flex-col md:flex-row items-center gap-stack-lg">
+<div class="flex-1 space-y-stack-md">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary">Why Local Matters</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Choosing a local service provider means more than just supporting your community. It means working with experts who truly understand the specific needs of your lawn.</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-stack-sm mt-stack-md">
+<div class="bg-surface-container-lowest p-stack-sm rounded-lg shadow-sm border border-outline-variant/30 flex items-start gap-base">
+<span class="material-symbols-outlined text-secondary text-3xl" style="font-variation-settings: 'FILL' 1;">speed</span>
+<div>
+<h4 class="font-label-md text-label-md text-primary">Quick Response Times</h4>
+<p class="font-caption text-caption text-on-surface-variant">Being nearby means we can address your lawn care needs promptly.</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-stack-sm rounded-lg shadow-sm border border-outline-variant/30 flex items-start gap-base">
+<span class="material-symbols-outlined text-secondary text-3xl" style="font-variation-settings: 'FILL' 1;">grass</span>
+<div>
+<h4 class="font-label-md text-label-md text-primary">Local Soil Expertise</h4>
+<p class="font-caption text-caption text-on-surface-variant">We know the local soil and climate, ensuring treatments that actually work.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="flex-1 w-full rounded-xl overflow-hidden shadow-sm">
+<img class="w-full h-[300px] object-cover" data-alt="A lush, perfectly manicured green lawn in a suburban neighborhood on a bright, sunny day. The grass is vibrantly green, showcasing deep root health and expert care. The scene is shot from a low angle, highlighting the texture of the grass blades against a clear blue sky. The overall aesthetic is fresh, natural, and inviting, perfectly suited for a premium local landscaping service." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVSoEIQFwnWwoxgmoghXec61J5tLNhM3RU0gZYBdGjE4HpKXweGVoqF5naZFcl-v-SPymqry0Wwtzr1G1LSRwoL7f1kv9MFky3xM4dYbVXO3L8kiQ_ktX6p55p51pE0Bu0DBzM8cDrdAyaiDL4-8Dk1HFsM4rv97jjLNTNeHomNFYJBh_HqqYW-6vZgwI66izsoW4ykad71uPM9-zJouK4QNg6QUOqsACmQlWqCw8N_pRAW_Av-CpsdsMoDmeIZ6chhzZxixv2DsaN"/>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="text-center space-y-stack-md bg-primary-container text-on-primary-container rounded-xl p-stack-lg shadow-sm">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-primary">Ready for a Better Lawn?</h2>
+<p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">Let us show you the difference professional, local care makes.</p>
+<a href="contact.html" class="mt-stack-sm bg-surface text-primary font-label-md text-label-md px-8 py-4 rounded-full shadow-sm hover:bg-surface-variant transition-colors inline-block">Check if we're in your neighborhood</a>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-stack-lg px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant dark:border-outline-variant mt-stack-lg">
+<div class="col-span-1 md:col-span-1 flex flex-col space-y-stack-sm">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim">
+                Cutting Edge Lawn Care
+            </div>
+<p class="font-body-md text-body-md text-on-surface-variant">© 2024 Cutting Edge Lawn Care. All rights reserved.</p>
+</div>
+<div class="col-span-1 flex flex-col space-y-base">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors" href="#">Terms of Service</a>
+</div>
+<div class="col-span-1 flex flex-col space-y-base">
+<a class="font-body-md text-body-md text-primary dark:text-primary-fixed-dim font-bold hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors" href="service-area.html">Service Areas</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors" href="#">Careers</a>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex md:hidden h-16 divide-x divide-on-primary/20 bg-primary dark:bg-primary-container shadow-lg">
+<a class="flex-1 flex items-center justify-center gap-base text-on-primary/80 dark:text-on-primary-container/80 active:bg-primary-container dark:active:bg-primary transition-all" href="tel:504-555-0123">
+<span class="material-symbols-outlined font-label-md text-label-md">call</span>
+<span class="font-label-md text-label-md">Call Now</span>
+</a>
+<a class="flex-1 flex items-center justify-center gap-base text-on-primary/80 dark:text-on-primary-container/80 active:bg-primary-container dark:active:bg-primary transition-all" href="contact.html">
+<span class="material-symbols-outlined font-label-md text-label-md">request_quote</span>
+<span class="font-label-md text-label-md">Get Quote</span>
+</a>
+</nav>
+</body></html>
